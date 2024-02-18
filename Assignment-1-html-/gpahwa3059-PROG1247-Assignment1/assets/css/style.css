@@ -1,0 +1,99 @@
+/* Gurkaran Singh Pahwa 8913059 */
+html{
+    font: normal normal normal 20px/1.5 'Times New Roman', serif;
+}
+
+h1,h2{
+    font-variant: small-caps;
+    color: rgb(0, 0, 139);
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.3rm;
+}
+
+q{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+footer p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(0, 0, 139);
+}
+
+header, footer{
+    text-align: center;
+    border: 0.1rem solid #FE9555;
+    background-image: linear-gradient(yellow, #FE9555);
+
+}
+footer{
+    background-image: linear-gradient(#FE9555,yellow);
+}
+
+/* Height, Width & Max Width */
+body{
+    width: 90%;
+    max-width: 1200px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section{
+    text-align: center ;
+    padding: 1rem;
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+}
+.main-section figure{
+    width: 70%;
+    height: auto;
+    
+}
+
+.main-section-figure{
+    width: 90%;
+    height: auto;
+    padding: 0.5rem;
+    margin: 1rem auto;
+
+}
+.main-section-figure img{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 60%;
+}
+
+iframe{
+    width: 70%;
+    height:25rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(255, 102, 0);
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #f60;
+    
+}
+
+#bio{
+    text-align: left;
+}
+#quote{
+    padding: 1rem;
+    border: 0.1rem solid #f50;
+    box-shadow: 0.1rem 0.1rem 0.1rem orangered;
+}
+#relative-path-image{
+    border: 0.1rem solid rgb(0, 0, 128);
+    color: rgb(0,0,128);
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+}
+#absolute-path-image{
+    border: 0.1rem solid rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+    background-color: hsla(22.72, 98.83%, 66.47%, 1);
+}
